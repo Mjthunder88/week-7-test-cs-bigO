@@ -19,7 +19,12 @@ function sumZero (arr) {
 // console.log(sumZero([1, 2, 3]))
 // console.log(sumZero([1, 2, 3, -2]))
 
+// Time complexity:
+// Big O:
+// O(n^2)
 
+// space complexity:
+// O(1)
 
 // Problem 2
 
@@ -42,6 +47,11 @@ function sumZero (arr) {
 // console.log(hasUniqueChars("Moonday"));
 // -> False
 
+// Time complexity:
+// Big O:
+// O(n^2)
+// space complexity:
+// O(1)
 
 // Problem 3
 
@@ -62,7 +72,11 @@ function isPangram (word) {
 
 // console.log(isPangram("I like cats, but not mice"));
 // -> False
-
+// Time complexity:
+// Big O:
+// O(n)
+// space complexity:
+// O(n)
 
 // problem 4
 // Loop through the array and for each word get the length of that word then compare it to the others.
@@ -79,3 +93,9 @@ function findLongestWord (words) {
 
 // console.log(findLongestWord(["hi", "hello"]));
 // -> 5
+
+// Time complexity:
+// Big O:
+// O(n)
+// space complexity:
+// O(n)
