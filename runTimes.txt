@@ -1,0 +1,32 @@
+Results for the extraLargeArray
+
+insert 1.112870309 s
+append 6.606018 ms
+
+Results for the largeArray
+
+insert 8.715005 ms
+append 1.129201 ms
+
+Results for the medium Array
+
+insert 182.794 μs
+append 177.799 μs
+
+Results for the small Array
+
+insert 65.686 μs
+append 144.091 μs
+
+Results for the tiny array
+
+insert 52.232 μs
+append 131.564 μs
+
+As the number of entries increases the time that it takes gets longer but for the largest array it seems that append function handles it the best. It has a more constant runtime because its just adding on numbers onto the end. It doesn't havae to shift all the numbers over as its adding to the array.
+
+As for when the array is smaller the insert function is faster because it having to move other values over doesn't take that much time. Insert has more of a linear runtime. 
+
+So overall append is the better function if you plan on pushing a large amount of numbers through the function, it will scale better. 
+
+Extra Credit: After looking into it says that .unshift() is a O(n) or linear because of it having to move all of the values over one when its added to the front. So as the array gows the amount of time it takes will go up at a decent rate. 
